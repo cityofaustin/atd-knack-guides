@@ -55,7 +55,8 @@ Tasks can be manually added to any work order, provided the work order is is not
 
 3. To add an entry for any section of the **Task Details**, complete the form fields in the section, then click the blue button to submit the form. A green confirmation message will confirm that the entry was successfully submitted, and a new row will display in that section's entry table.
 
-    ![Add Specification](https://raw.githubusercontent.com/cityofaustin/data-tracker-guides/master/images/add_specification.png)
+    ![Add Specification](../images/add_specification.png)
+
     *The Specifications section with a successfully-submitted entry*
 
 4. Continue to add entries for Time, Specifications, and Materials as needed. You may remove entries from by clicking the trash bin icon under the **Remove** column of any of the task tables.
@@ -91,15 +92,6 @@ A task may be cancelled if it meets the following conditions:
 1. To cancel a task, click the **Cancel Task** button at the top of the **Task Details** page.
 
 2. From the confirmation window that appears, click the blue **Cancel Tasks** button to cancel the task.
-
-
-
-
-
-
-
-
-
 
 
 
