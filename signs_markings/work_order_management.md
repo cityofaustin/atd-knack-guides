@@ -14,8 +14,8 @@ Work Orders are the process by which Signs & Markings work is requested, dipsatc
 
 1. A user creates a new work order which specifies the location and type of work to be completed.
 2. If the user is not a technician, plans must be attached to the work order after it is created.
-3. A supervisor reviews the work order and issues inidividual work tasks to workgroups.
-4. Workgroups complete their work tasks.
+3. A supervisor reviews the work order and issues inidividual jobs to workgroups.
+4. Workgroups complete their jobs.
 5. An analyst reviews the work order and updates asset information in GIS.
 6. A supervisor reviews the work order and closes it.
 
@@ -24,18 +24,18 @@ Each work order may have one of six statuses:
 
 Status                  | Description|
 :---                    | :--- |
-**NEED TO BE ISSUED**   | The work order has been created but there are unissued tasks. |
-**ISSUED**              | All tasks have been issued. |
+**NEED TO BE ISSUED**   | The work order has been created but there are unissued jobs. |
+**ISSUED**              | All jobs have been issued. |
 **ON HOLD**             | The work order is on hold. See **HOLD REASON** for details. |
-**NEEDS GIS**           | All tasks have been completed and the work order is ready for GIS Q/A Review |
-**FINAL REVIEW**        | All tasks and GIS Q/A Review have been completed and the work order is ready for final review. |
+**NEEDS GIS**           | All jobs have been completed and the work order is ready for GIS Q/A Review |
+**FINAL REVIEW**        | All jobs and GIS Q/A Review have been completed and the work order is ready for final review. |
 **CLOSED**              | Final review is complete and the work order has been closed. |
 
 ## Find a Work Order
 
 ##### User Role Required: Viewer
 
-1. Visit the work orders landing page: http://transportation.austintexas.io/data-tracker/#home/work-tasks-markings/
+1. Visit the work orders landing page: http://transportation.austintexas.io/data-tracker/#home/work-jobs-markings/
 
 2. By default, the Work Order table displays all work orders. Additional tabs display work orders that are filtered based on their status.
 
@@ -95,7 +95,7 @@ Status                  | Description|
     
     - If Requestor is not **MAINTENANCE,** Work Order Status will be set to **ON HOLD** with On Hold Reason of **WAITING FOR PLANS**.
 
-    - If the user that created the work order is a Technician, tasks will be issued automatically.
+    - If the user that created the work order is a Technician, jobs will be issued automatically.
 
 5. If the user that created the work order is a Techncian, skip to step 10.
 
@@ -115,17 +115,17 @@ Status                  | Description|
 
 8. Verify Work Order Status. The work order should now have a status of **NEED TO BE ISSUED**. If not, check the **WAITING FOR HOLD REASON** to add attachments if necessary.
 
-8. Verify Tasks have been created. Scroll down to the Tasks section. There will be one tasks for each workgroup you identified when creating the work order. Each task will have a status of **NEW**.
+8. Verify Jobs have been created. Scroll down to the Jobs section. There will be one jobs for each workgroup you identified when creating the work order. Each job will have a status of **NEW**.
 
-10. Add additional tasks. If you need to add additional tasks to the work order, scroll down to the Tasks section, and select the required workgroup from the Workgroup drop-down menu. Click **Create Work Task** to create the work task.
+10. Add additional jobs. If you need to add additional jobs to the work order, scroll down to the Jobs section, and select the required workgroup from the Workgroup drop-down menu. Click **Create Work Job** to create the job.
 
-    \* *It is not possible to create work tasks if the work order status is **ON HOLD**.*
+    \* *It is not possible to create jobs if the work order status is **ON HOLD**.*
 
 ## Edit a Work Order
 
 ##### User Role Required: Viewer
 
-Note: A work order can only be edited if no tasks have been issued.
+Note: A work order can only be edited if no jobs have been issued.
 
 1. To edit a work order, start by viewing the **Work Order Details** of the work order you wish to edit.
 

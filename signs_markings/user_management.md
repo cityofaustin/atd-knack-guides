@@ -12,7 +12,7 @@ In order to create user accounts or modify user permissions, a user must be desi
 
 Signs & Markings users are assigned one of three roles: Viewer, Technician, or Supervisor. The below table summarizes which actions are permitted by each role.
 
-User Role       | Create Work Orders | Edit Work Orders | Close Work Orders |Create Tasks | Issue Tasks | Edit Tasks | GIS QA |
+User Role       | Create Work Orders | Edit Work Orders | Close Work Orders |Create Jobs | Issue Jobs | Edit Jobs | GIS QA |
 :---            | :---:              | :---:            | :---:             |:---:        | :---:       | :---:      | :---:  |
 **Viewer**      | Yes                | Yes              | No                |Yes          | No          | No         | No     |
 **Technician**  | Yes                | Yes              | No                |Yes          | No          | Yes        | No     |
