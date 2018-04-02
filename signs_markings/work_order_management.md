@@ -14,8 +14,8 @@ Work Orders are the process by which Signs & Markings work is requested, dipsatc
 
 1. A user creates a new work order which specifies the location and type of work to be completed.
 2. If the user is not a technician, plans must be attached to the work order after it is created.
-3. A supervisor reviews the work order and issues inidividual work jobs to workgroups.
-4. Workgroups complete their work jobs.
+3. A supervisor reviews the work order and issues inidividual jobs to workgroups.
+4. Workgroups complete their jobs.
 5. An analyst reviews the work order and updates asset information in GIS.
 6. A supervisor reviews the work order and closes it.
 
@@ -117,9 +117,9 @@ Status                  | Description|
 
 8. Verify Jobs have been created. Scroll down to the Jobs section. There will be one jobs for each workgroup you identified when creating the work order. Each job will have a status of **NEW**.
 
-10. Add additional jobs. If you need to add additional jobs to the work order, scroll down to the Jobs section, and select the required workgroup from the Workgroup drop-down menu. Click **Create Work Job** to create the work job.
+10. Add additional jobs. If you need to add additional jobs to the work order, scroll down to the Jobs section, and select the required workgroup from the Workgroup drop-down menu. Click **Create Work Job** to create the job.
 
-    \* *It is not possible to create work jobs if the work order status is **ON HOLD**.*
+    \* *It is not possible to create jobs if the work order status is **ON HOLD**.*
 
 ## Edit a Work Order
 

@@ -49,9 +49,9 @@ Jobs can be manually added to any work order, provided the work order is not **C
 
 1. Follow the steps in [Find Jobs](#find-jobs) to find and view **Job Details**.
 
-    The **Job Details** page displays relevant information about the work job, as well as forms to submit information about work that was completed.
+    The **Job Details** page displays relevant information about the job, as well as forms to submit information about work that was completed.
 
-2. Scroll down the page to find tables for Time, Specifications, and Materials. There is a form below each table which will allow you to submit entries for each section of the work job. 
+2. Scroll down the page to find tables for Time, Specifications, and Materials. There is a form below each table which will allow you to submit entries for each section of the job. 
 
     **Note**: The job entry forms will only be displayed if the job has status of **ISSUED** and if the user's role is **Technician**.
 
@@ -62,7 +62,7 @@ Jobs can be manually added to any work order, provided the work order is not **C
 
 4. Continue to add entries for Time, Specifications, and Materials as needed. You may remove entries from by clicking the trash bin icon under the **Remove** column of any of the job tables.
 
-5. Once at least one entry has been submitted for each section of the work order\*, it is possible to mark the job as completed. To complete the work job, click the **Complete Job** button at the top of the **Job Details** page.
+5. Once at least one entry has been submitted for each section of the work order\*, it is possible to mark the job as completed. To complete the job, click the **Complete Job** button at the top of the **Job Details** page.
 
 6. From the confirmation window that appears, click the blue **Complete Job** button to mark the job as completed.
 
