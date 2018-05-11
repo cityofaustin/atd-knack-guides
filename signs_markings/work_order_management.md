@@ -93,11 +93,11 @@ Status                  | Description|
     
     - You will be redirected to the Work Order Details page
     
-    - If Requester is not **MAINTENANCE,** Work Order Status will be set to **ON HOLD** with On Hold Reason of **WAITING FOR PLANS**.e
+    - If Requester is not **MAINTENANCE,** Work Order Status will be set to **ON HOLD** with On Hold Reason of **WAITING FOR PLANS**
 
     - If the user that created the work order is a Technician, jobs will be issued automatically.
 
-5. If the user that created the work order is a Techncian, skip to step 10.
+5. If the user that created the work order is a Technician, skip to step 10.
 
 6. Attach Plans. From the Work Order Details page, click the **Add Attachment** button. Complete the form:
     - **Type**: The type of attachment. Select Plans to attach plans. | Required
