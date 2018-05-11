@@ -66,7 +66,7 @@ Status                  | Description|
     
     - **Regulation #**: | Optional. Work order will be placed on hold until reg is attached. Hidden if user role is Technician.
     
-    - **Coordination Neeed**: If the work requires coordination across multiple ATD divisions | Required if requestor is not **MAINTENCE** or **SBO / WHEREABOUTS**.
+    - **Coordination Neeed**: If the work requires coordination across multiple ATD divisions | Required if requestor is not **MAINTENANCE** or **SBO / WHEREABOUTS**.
     
     - **Instructions and Comments**: Description of the work to be completed and any additional comments | Required.
 
