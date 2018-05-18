@@ -102,7 +102,7 @@ Status                  | Description|
 6. Attach Plans. From the Work Order Details page, click the **Add Attachment** button. Complete the form:
     - **Type**: The type of attachment. Select Plans to attach plans. | Required
 
-    - **Description**: A lot of description of the attachment contents. | Optional
+    - **Description**: A description of the attachment contents. | Optional
 
     - **File**: The file to be uploaded. (Click 'Browse' to locate the file). | Required
 
