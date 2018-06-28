@@ -74,36 +74,23 @@ Turn Bays       | 					| Painted Curb 			|
 |				| 					| Concrete Domes 		| 
 |				| 					| Rubber Speed Cushions | 
    
-    - **Requester Work Order ID**: the ID of the requester's work order/plan | Required.
-    
-    
-    - **Regulation**: | Indicate if work order has a Regulation. If "Yes", the work order will be placed on hold until REG is attached. You will enter the REG number when you attach the REG | Required.
-
-    - **Coordination Need**: Indicate if the work order requires coordination across multiple ATD divisions or with a contractor | Required.
-    
-    - **Instructions and Comments**: Description of the work to be completed and any additional comments | Required.
-
-    - **Location Type**: Select from: Intersection, Section of Road, or Specific Location and fill out the associated fields | Required.
-    
+  - **Requester Work Order ID**: the ID of the requester's work order/plan | Required.
+  - **Regulation**: | Indicate if work order has a Regulation. If "Yes", the work order will be placed on hold until REG is attached. You will enter the REG number when you attach the REG | Required.
+  - **Coordination Need**: Indicate if the work order requires coordination across multiple ATD divisions or with a contractor | Required.
+  - **Instructions and Comments**: Description of the work to be completed and any additional comments | Required.
+  - **Location Type**: Select from: Intersection, Section of Road, or Specific Location and fill out the associated fields | Required.
+  
   Note: When using the search field to find a street with a “N”, “S”, “E”, “W” prefix, DO NOT include the prefix in the search. Ex. For S Lamar, search “Lamar”, not “S Lamar”. 
 
-    - **Primary Street:** The name of the primary street at which work will be completed. | Required.
-    
-    - **Cross Street**: The name of the cross street at which work will be completed | Required if Location Type is Intersection.
-    
-    - **From Street**: The name of the first cross street that intersects with the primary street at which work will be completed | Required if Location Type is Section of Road.
-    
-    - **To Street**: The name of the second cross street that intersects with the primary street at which work will be completed | Required if Location Type is Section of Road.
-
-    - **Address or Block #**: The street address or block number on the primary street at which work will be completed | Required if Location Type is Specific Location.
-    
-    - **Area**: The region of the city in which the work will be completed (North / Central / South) | Required.
-    
-    - **School**: Indicate if there is a school nearby this work location | Required.
-
-    - **Street Segment ID**: Provide 8-digit street segment ID which references the work location. A link to the Street Segment ID map is provided.
-    
-    - **Location Details**: Additional description of the location at which work will be completed. Use this field to explain special, unique, or complicated locations. 
+  - **Primary Street:** The name of the primary street at which work will be completed. | Required.
+  - **Cross Street**: The name of the cross street at which work will be completed | Required if Location Type is Intersection.
+  - **From Street**: The name of the first cross street that intersects with the primary street at which work will be completed | Required if Location Type is Section of Road.
+  - **To Street**: The name of the second cross street that intersects with the primary street at which work will be completed | Required if Location Type is Section of Road.
+  - **Address or Block #**: The street address or block number on the primary street at which work will be completed | Required if Location Type is Specific Location.  
+  - **Area**: The region of the city in which the work will be completed (North / Central / South) | Required.    
+  - **School**: Indicate if there is a school nearby this work location | Required.
+  - **Street Segment ID**: Provide 8-digit street segment ID which references the work location. A link to the Street Segment ID map is provided.  
+  - **Location Details**: Additional description of the location at which work will be completed. Use this field to explain special, unique, or complicated locations. 
 
 4. Click the **Create Work Order** button to submit the form.
         
