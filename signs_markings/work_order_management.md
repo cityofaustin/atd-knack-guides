@@ -23,14 +23,14 @@ Work Orders are the process by which Signs & Markings work is requested, dispatc
 
 Each work order may have one of six statuses:
 
-Status                  | Description|
-:---                    | :--- |
-**NEED TO BE ISSUED**   | The work order has been created but there are jobs that are not issued. |
-**ISSUED**              | All jobs have been issued. |
-**ON HOLD**             | The work order is on hold. See **HOLD REASON** for details. |
-**NEEDS GIS**           | All jobs have been completed and the work order is ready for GIS Q/A Review |
-**FINAL REVIEW**        | All jobs and GIS Q/A Review have been completed and the work order is ready for final review. |
-**CLOSED**              | Final review is complete and the work order has been closed. |
+Status                  | Description
+:---                    | :--- 
+**NEED TO BE ISSUED**   | The work order has been created but there are jobs that are not issued. 
+**ISSUED**              | All jobs have been issued. 
+**ON HOLD**             | The work order is on hold. See **HOLD REASON** for details. 
+**NEEDS GIS**           | All jobs have been completed and the work order is ready for GIS Q/A Review 
+**FINAL REVIEW**        | All jobs and GIS Q/A Review have been completed and the work order is ready for final review. 
+**CLOSED**              | Final review is complete and the work order has been closed. 
 
 ## Find a Work Order
 
@@ -62,7 +62,9 @@ Note: You can toggle between Signs or Markings work order views using the corres
 
 Markings work is broken into four work groups as follows:
 
-| Long line       | Short lines      | Specialty Markings    | Raised Pavement Markings |
+<center>
+
+| Long line       | Short lines      | Short lines           | Raised Pavement Markings |
 | --------------- | ---------------- | --------------------- | ------------------------ |
 | Center lines    | Crosswalks       | Arrows                | Raised Pavement Markings |
 | Lane lines      | Stop lines       | Legends               |                          |
@@ -73,7 +75,7 @@ Markings work is broken into four work groups as follows:
 |                 |                  | Delineators           |                          |
 |                 |                  | Concrete Domes        |                          |
 |                 |                  | Rubber Speed Cushions |                          |
-
+</center>
 
 
   - **Requester Work Order ID**: the ID of the requester's work order/plan | Required.
@@ -86,7 +88,7 @@ Markings work is broken into four work groups as follows:
 
    - **Location Type**: Select from: Intersection, Section of Road, or Specific Location and fill out the associated fields | Required.    
     Note: When using the search field to find a street with a “N”, “S”, “E”, “W” prefix, DO NOT include the prefix in the search. Ex. For S Lamar, search “Lamar”, not “S Lamar”. 
-  
+
   - **Primary Street:** The name of the primary street at which work will be completed. | Required.    
   
   - **Cross Street**: The name of the cross street at which work will be completed | Required if Location Type is Intersection.    
@@ -156,13 +158,13 @@ Note: A work order can only be placed on hold if its status is **NEED TO BE ISSU
 
 3. From the confirmation window, select the **Hold Reason** from the drop down field:
 
-	n Hold Reason          				| Description|
-	---                    				| :--- |
-	*WAITING FOR INVENTORY**   			| The work order can not be worked on because inventory items are not on hand. |
-**WAITING FOR ROADWAY IMPROVEMENTS**    | The work order can not be worked on because the roadway is still being worked on |
-	*WAITING FOR PLANS**             		| The work order can not be worked on because plans are not ready|
-	*WAITING FOR SBO**           			| The work order can not be worked on because waiting for Street & Bridge Operations is not complete yet|
-	*OTHER -- SEE COMMENTS**        		| Provide a comment on why the work order is on hold in the comments section on the work order details page |
+  n Hold Reason          				| Description
+  ---                    				| :--- 
+  *WAITING FOR INVENTORY**   			| The work order can not be worked on because inventory items are not on hand. 
+    **WAITING FOR ROADWAY IMPROVEMENTS**    | The work order can not be worked on because the roadway is still being worked on 
+  *WAITING FOR PLANS**             		| The work order can not be worked on because plans are not ready
+  *WAITING FOR SBO**           			| The work order can not be worked on because waiting for Street & Bridge Operations is not complete yet
+  *OTHER -- SEE COMMENTS**        		| Provide a comment on why the work order is on hold in the comments section on the work order details page 
 
 Then click the **Put On Hold** button to place the work order **ON HOLD**.
 
