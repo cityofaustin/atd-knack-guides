@@ -62,21 +62,19 @@ Note: You can toggle between Signs or Markings work order views using the corres
 
 Markings work is broken into four work groups as follows:
 
-<center>
 
-| Long line       | Short lines      | Short lines           | Raised Pavement Markings |
-| --------------- | ---------------- | --------------------- | ------------------------ |
-| Center lines    | Crosswalks       | Arrows                | Raised Pavement Markings |
-| Lane lines      | Stop lines       | Legends               |                          |
-| Edge lines      | Yield lines      | Words                 |                          |
-| Bike lane lines | School Zone line | Cross hatches         |                          |
-| Turn Bays       |                  | Painted Curb          |                          |
-|                 |                  | Parking T's and L's   |                          |
-|                 |                  | Delineators           |                          |
-|                 |                  | Concrete Domes        |                          |
+
+|    Long line    |   Short lines    |  Specialty Markings   | Raised Pavement Markings |
+| :-------------: | :--------------: | :-------------------: | :----------------------: |
+|  Center lines   |    Crosswalks    |        Arrows         | Raised Pavement Markings |
+|   Lane lines    |    Stop lines    |        Legends        |                          |
+|   Edge lines    |   Yield lines    |         Words         |                          |
+| Bike lane lines | School Zone line |     Cross hatches     |                          |
+|    Turn Bays    |                  |     Painted Curb      |                          |
+|                 |                  |  Parking T's and L's  |                          |
+|                 |                  |      Delineators      |                          |
+|                 |                  |    Concrete Domes     |                          |
 |                 |                  | Rubber Speed Cushions |                          |
-</center>
-
 
   - **Requester Work Order ID**: the ID of the requester's work order/plan | Required.
   
@@ -158,13 +156,13 @@ Note: A work order can only be placed on hold if its status is **NEED TO BE ISSU
 
 3. From the confirmation window, select the **Hold Reason** from the drop down field:
 
-  n Hold Reason          				| Description
-  ---                    				| :--- 
-  *WAITING FOR INVENTORY**   			| The work order can not be worked on because inventory items are not on hand. 
-    **WAITING FOR ROADWAY IMPROVEMENTS**    | The work order can not be worked on because the roadway is still being worked on 
-  *WAITING FOR PLANS**             		| The work order can not be worked on because plans are not ready
-  *WAITING FOR SBO**           			| The work order can not be worked on because waiting for Street & Bridge Operations is not complete yet
-  *OTHER -- SEE COMMENTS**        		| Provide a comment on why the work order is on hold in the comments section on the work order details page 
+On Hold Reason                  | Description|
+:---                            | :--- |
+**WAITING FOR INVENTORY**         | The work order can not be worked on because inventory items are not on hand. |
+**WAITING FOR ROADWAY IMPROVEMENTS**    | The work order can not be worked on because the roadway is still being worked on |
+**WAITING FOR PLANS**                 | The work order can not be worked on because plans are not ready|
+**WAITING FOR SBO**                 | The work order can not be worked on because waiting for Street & Bridge Operations is not complete yet|
+**OTHER -- SEE COMMENTS**           | Provide a comment on why the work order is on hold in the comments section on the work order details page |
 
 Then click the **Put On Hold** button to place the work order **ON HOLD**.
 
