@@ -1,4 +1,4 @@
 # data-tracker-guides
-User guides for the Austin Transportation Data Tracker application.
+User guides for the Austin Transportation's Knack applications.
 
 - [Signs and Markings](/signs_markings)
